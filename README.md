@@ -19,6 +19,15 @@ Write a Python program that calculates the square root of a given number using t
 import math
 
 def calculate_square_root(number):
+    """
+    Calculates the square root of a given number.
+
+    Args:
+        number (float): The number to calculate the square root of.
+
+    Returns:
+        float: The square root of the given number.
+    """
     return math.sqrt(number)
 
 # Example usage
@@ -38,6 +47,15 @@ Write a Python program that calculates the factorial of a given number using the
 import math
 
 def calculate_factorial(number):
+    """
+    Calculates the factorial of a given number.
+
+    Args:
+        number (int): The number to calculate the factorial of.
+
+    Returns:
+        int: The factorial of the given number.
+    """
     return math.factorial(number)
 
 # Example usage
@@ -57,6 +75,15 @@ Write a Python program that calculates the sine, cosine, and tangent of an angle
 import math
 
 def perform_trigonometric_calculations(angle):
+    """
+    Performs trigonometric calculations for a given angle in degrees.
+
+    Args:
+        angle (float): The angle in degrees.
+
+    Returns:
+        tuple: A tuple containing the sine, cosine, and tangent of the angle.
+    """
     # Convert the angle to radians
     angle_radians = math.radians(angle)
     
@@ -86,6 +113,16 @@ Write a Python program that calculates the logarithm of a number to a specified 
 import math
 
 def calculate_logarithm(number, base):
+    """
+    Calculates the logarithm of a number to a specified base.
+
+    Args:
+        number (float): The number to calculate the logarithm of.
+        base (float): The base of the logarithm.
+
+    Returns:
+        float: The logarithm of the number to the specified base.
+    """
     return math.log(number, base)
 
 # Example usage
@@ -106,6 +143,15 @@ Write a Python program that calculates the exponential value of a number using t
 import math
 
 def calculate_exponential(number):
+    """
+    Calculates the exponential value of a given number.
+
+    Args:
+        number (float): The number.
+
+    Returns:
+        float: The exponential value of the number.
+    """
     return math.exp(number)
 
 # Example usage
@@ -125,6 +171,15 @@ Write a Python program that rounds a decimal number to the nearest integer using
 import math
 
 def round_to_nearest_integer(number):
+    """
+    Rounds a decimal number to the nearest integer.
+
+    Args:
+        number (float): The decimal number.
+
+    Returns:
+        int: The nearest integer.
+    """
     return round(number)
 
 # Example usage
@@ -144,6 +199,15 @@ Write a Python program that calculates the ceiling and floor values of a number 
 import math
 
 def calculate_ceiling_floor(number):
+    """
+    Calculates the ceiling and floor values of a number.
+
+    Args:
+        number (float): The number.
+
+    Returns:
+        tuple: A tuple containing the ceiling and floor values of the number.
+    """
     ceiling = math.ceil(number)
     floor = math.floor(number)
     return ceiling, floor
@@ -166,6 +230,15 @@ Write a Python program that converts an angle from degrees to radians using the 
 import math
 
 def convert_degrees_to_radians(degrees):
+    """
+    Converts an angle from degrees to radians.
+
+    Args:
+        degrees (float): The angle in degrees.
+
+    Returns:
+        float: The angle in radians.
+    """
     return math.radians(degrees)
 
 # Example usage
@@ -185,6 +258,15 @@ Write a Python program that converts an angle from radians to degrees using the 
 import math
 
 def convert_radians_to_degrees(radians):
+    """
+    Converts an angle from radians to degrees.
+
+    Args:
+        radians (float): The angle in radians.
+
+    Returns:
+        float: The angle in degrees.
+    """
     return math.degrees(radians)
 
 # Example usage
@@ -204,6 +286,16 @@ Write a Python program that calculates the power of a number using the `math` mo
 import math
 
 def calculate_power(base, exponent):
+    """
+    Calculates the power of a number.
+
+    Args:
+        base (float): The base number.
+        exponent (float): The exponent.
+
+    Returns:
+        float: The result of raising the base to the exponent.
+    """
     return math.pow(base, exponent)
 
 # Example usage
