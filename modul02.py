@@ -11,4 +11,3 @@ def calculate_factorial(number):
     Returns:
         int: The factorial of the given number.
     """
-    return math.factorial(number)

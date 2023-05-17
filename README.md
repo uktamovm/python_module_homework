@@ -20,7 +20,7 @@ Write a Python program that calculates the square root of a given number using t
 # Example usage
 input_number = 16
 result = calculate_square_root(input_number)
-print(result)
+print(result) # Output: 4.0
 ```
 
 ---
@@ -35,7 +35,7 @@ Write a Python program that calculates the factorial of a given number using the
 # Example usage
 input_number = 5
 result = calculate_factorial(input_number)
-print(result)
+print(result) # Output: 120
 ```
 
 ---
@@ -50,9 +50,9 @@ Write a Python program that calculates the sine, cosine, and tangent of an angle
 # Example usage
 input_angle = 45
 sine, cosine, tangent = perform_trigonometric_calculations(input_angle)
-print("Sine:", sine)
-print("Cosine:", cosine)
-print("Tangent:", tangent)
+print("Sine:", sine)  # Output: 0.7071067811865475
+print("Cosine:", cosine)  # Output: 0.7071067811865476
+print("Tangent:", tangent)  # Output: 0.9999999999999999
 ```
 
 ---
@@ -68,7 +68,7 @@ Write a Python program that calculates the logarithm of a number to a specified 
 input_number = 100
 input_base = 10
 result = calculate_logarithm(input_number, input_base)
-print(result)
+print(result)  # Output: 2.0
 ```
 
 ---
@@ -83,7 +83,7 @@ Write a Python program that calculates the exponential value of a number using t
 # Example usage
 input_number = 2
 result = calculate_exponential(input_number)
-print(result)
+print(result)  # Output: 7.3890560989306495
 ```
 
 ---
@@ -98,7 +98,7 @@ Write a Python program that rounds a decimal number to the nearest integer using
 # Example usage
 input_number = 3.7
 result = round_to_nearest_integer(input_number)
-print(result)
+print(result)  # Output: 4
 ```
 
 ---
@@ -113,8 +113,8 @@ Write a Python program that calculates the ceiling and floor values of a number 
 # Example usage
 input_number = 4.3
 ceiling, floor = calculate_ceiling_floor(input_number)
-print("Ceiling:", ceiling)
-print("Floor:", floor)
+print("Ceiling:", ceiling)  # Output: 5
+print("Floor:", floor)  # Output: 4
 ```
 
 ---
@@ -129,7 +129,7 @@ Write a Python program that converts an angle from degrees to radians using the 
 # Example usage
 input_degrees = 90
 result = convert_degrees_to_radians(input_degrees)
-print(result)
+print(result)  # Output: 1.5707963267948966
 ```
 
 ---
@@ -144,7 +144,7 @@ Write a Python program that converts an angle from radians to degrees using the 
 # Example usage
 input_radians = 1.5707963267948966
 result = convert_radians_to_degrees(input_radians)
-print(result)
+print(result)  # Output: 90.0
 ```
 
 ---
@@ -160,7 +160,7 @@ Write a Python program that calculates the power of a number using the `math` mo
 input_base = 2
 input_exponent = 3
 result = calculate_power(input_base, input_exponent)
-print(result)
+print(result)  # Output: 8.0
 ```
 
 ---
