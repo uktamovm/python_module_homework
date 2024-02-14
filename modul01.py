@@ -11,3 +11,5 @@ def calculate_ceiling_floor(number):
     Returns:
         tuple: A tuple containing the ceiling and floor values of the number.
     """
+    return math.sqrt(number)
+print(calculate_ceiling_floor(16))
